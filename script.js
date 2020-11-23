@@ -1,6 +1,6 @@
 
 //generate a unique id for students
-const studendID = function randomID() {
+const studentID = function randomID() {
     const letters = "0123456789ABCDEF";
     let id = "SD";
     for (let i = 0; i < 9; i++) {
@@ -29,11 +29,11 @@ const school =  {
 //register a student  (Florence)
 registerStudent : function(name, sex, age, fees, phone, address ){
 
-return 
+return;
 },
 
 
-//get  student (Morenikeji)
+//get All student (Morenikeji)
 getAllStudents : function(){
 
 return ;
@@ -65,9 +65,9 @@ employStaff : function ( name, sex, phone, address, salary ){
     const id = staffID();
     const salaryPaid = 0;
     const salaryBalance =  parseInt(salary) ;
-    
-    return staff;
-    
+    const staff = {id, name, sex, phone, address, salary, salaryPaid, salaryBalance};
+    this.staffs.push(staff)
+    return this.staffs[this.staffs.length -1];
     },
     
 
@@ -94,7 +94,9 @@ modifyStaff : function(id, newInfo){
 
 //delete student records (Mitchel)
 deleteStaff : function(id){
-
+  const index = this.staffs.findIndex(item => item.id === id);
+  console.log(index);
+ const staff = this.staffs.splice(index,1);
 return staff;
 },
 
@@ -134,7 +136,13 @@ studentsWithsFeesBalance : function(){
 
 //pay salary (Mitchel)
 payStaff : function(id, amount){
-
+  const staff = this.staffs.map((item) =>{
+    if(id === item.id){
+      item.salaryPaid = amount;
+      item.salaryBalance = item.salary - amount;
+      return item;
+    }
+  })
 
 return staff;
 },
