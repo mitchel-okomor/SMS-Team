@@ -26,7 +26,7 @@ const school = {
      name : "Dev School",
      address : "Lagos, Nigeria",
 
-//register a student
+//register a student  (Florence)
 registerStudent: function(name, sex, age, fees, phone, address ){
     const id = studendID();
    const feesPaid = 0;
@@ -35,7 +35,7 @@ registerStudent: function(name, sex, age, fees, phone, address ){
 },
 
 
-//get  student
+//get  student (FLorence)
 getAllStudents: function(){
 
 
@@ -43,7 +43,7 @@ return students
 },
 
 
-//get a single student
+//get a single student (Wasiu)
 getStudent: function(id){
 
 
@@ -51,55 +51,56 @@ return student
 },
 
 
-//modify a student record
+//modify a student record (Wasiu)
 modifyStudent: function(id, newInfo){
 
 return student;
 },
 
-//Delete Student
+//Delete Student (Florence)
 deleteStudent: function(id){
   
 return student;
 },
 
-//employ a staff
+//employ a staff (Mitchel)
 employStaff: function ( name, sex, phone, address, salary ){
     const id = staffID();
     const salaryPaid = 0;
-    const salaryBalance = salary;
+    const salaryBalance =  parseInt(salary) ;
     
     return staff;
     
     },
     
 
-//get all staffs in the school
+//get all staffs in the school (Mithel)
 getAllStaffs: function(){
 // for example
 
 return staffs
 },
 
-//get a single staff
+//get a single staff (Daniel)
 
 getStaff: function(id){
 
   return staff;
 },
 
-//modify a staff record
+//modify a staff record (Daniel)
 modifyStaff: function(id, newInfo){
 
   return staff;
 },
 
+//delete student records (Mitchel)
 deleteStaff: function(id){
 
 return staff;
 },
 
-//check school account balance
+//check school account balance (Wasiu)
 getSchoolAccountBalance: function(){
 
 
@@ -107,39 +108,40 @@ return balance;
 },
 
 
-//get information about the school
+//get information about the school (Daniel)
 getInfo: function(){
   
 },
 
-//pay schoolFees
+
+//pay schoolFees (Florence)
 paySchoolFees(id, amount){
  
  return student;
 },
 
-//get the total
 
+//get total fees balance (Wasiu)
 totalFeesBalance(){
 
 return balance;
 },
 
-//get all students owing fees
+//get all students owing fees (Daniel)
 studentsWithsFeesBalance(){
 
   return students;
 },
 
 
-//pay salary
+//pay salary (Mitch)
 payStaff(id, amount){
 
 
 return staff;
 },
 
-//get the total
+//get the total (Florence)
 
 totalSalaryBalance(){
 
@@ -148,9 +150,10 @@ return balance;
 },
 
 
+//get all staffs the school is owing salary (Daniel)
 staffsWithSalaryBalance(){
 
-    
+
 return staffs;
 }
 
@@ -158,9 +161,3 @@ return staffs;
 
 
 }
-
-
-
-
-
-
