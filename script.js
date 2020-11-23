@@ -20,31 +20,28 @@ const staffID = function randomID() {
     return id;
   }
 
-const school = {
+const school =  {
     students : [],
      staffs : [],
      name : "Dev School",
-     address : "Lagos, Nigeria",
+    address : "Lagos, Nigeria",
 
 //register a student  (Florence)
-registerStudent: function(name, sex, age, fees, phone, address ){
-    const id = studendID();
-   const feesPaid = 0;
-   const feesBalance = parseInt(fees) ;
+registerStudent : function(name, sex, age, fees, phone, address ){
 
+return 
 },
 
 
-//get  student (FLorence)
-getAllStudents: function(){
+//get  student (Morenikeji)
+getAllStudents : function(){
 
-
-return students
+return ;
 },
 
 
 //get a single student (Wasiu)
-getStudent: function(id){
+getStudent : function(id){
 
 
 return student
@@ -52,19 +49,19 @@ return student
 
 
 //modify a student record (Wasiu)
-modifyStudent: function(id, newInfo){
+modifyStudent : function(id, newInfo){
 
 return student;
 },
 
 //Delete Student (Florence)
-deleteStudent: function(id){
+deleteStudent : function(id){
   
 return student;
 },
 
 //employ a staff (Mitchel)
-employStaff: function ( name, sex, phone, address, salary ){
+employStaff : function ( name, sex, phone, address, salary ){
     const id = staffID();
     const salaryPaid = 0;
     const salaryBalance =  parseInt(salary) ;
@@ -74,8 +71,8 @@ employStaff: function ( name, sex, phone, address, salary ){
     },
     
 
-//get all staffs in the school (Mithel)
-getAllStaffs: function(){
+//get all staffs in the school (Morenikeji)
+getAllStaffs : function(){
 // for example
 
 return staffs
@@ -83,59 +80,59 @@ return staffs
 
 //get a single staff (Daniel)
 
-getStaff: function(id){
+getStaff : function(id){
 
   return staff;
 },
 
 //modify a staff record (Daniel)
-modifyStaff: function(id, newInfo){
+modifyStaff : function(id, newInfo){
 
   return staff;
 },
 
 //delete student records (Mitchel)
-deleteStaff: function(id){
+deleteStaff : function(id){
 
 return staff;
 },
 
 //check school account balance (Wasiu)
-getSchoolAccountBalance: function(){
+getSchoolAccountBalance : function(){
 
 
 return balance;
 },
 
 
-//get information about the school (Daniel)
-getInfo: function(){
+//get information about the school (Mornikeji)
+getInfo : function(){
   
 },
 
 
 //pay schoolFees (Florence)
-paySchoolFees(id, amount){
+paySchoolFees : function(id, amount){
  
  return student;
 },
 
 
-//get total fees balance (Wasiu)
-totalFeesBalance(){
+//get total fees balance (Morenikeji)
+totalFeesBalance : function(){
 
 return balance;
 },
 
 //get all students owing fees (Daniel)
-studentsWithsFeesBalance(){
+studentsWithsFeesBalance : function(){
 
   return students;
 },
 
 
-//pay salary (Mitch)
-payStaff(id, amount){
+//pay salary (Mitchel)
+payStaff : function(id, amount){
 
 
 return staff;
@@ -143,7 +140,7 @@ return staff;
 
 //get the total (Florence)
 
-totalSalaryBalance(){
+totalSalaryBalance : function(){
 
 
 return balance;
@@ -151,7 +148,7 @@ return balance;
 
 
 //get all staffs the school is owing salary (Daniel)
-staffsWithSalaryBalance(){
+staffsWithSalaryBalance : function(){
 
 
 return staffs;
