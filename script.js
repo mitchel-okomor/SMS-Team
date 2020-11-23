@@ -91,6 +91,7 @@ modifyStaff : function(id, newInfo){
   return staff;
 },
 
+
 //delete student records (Mitchel)
 deleteStaff : function(id){
 
