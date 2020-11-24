@@ -33,7 +33,7 @@ return;
 },
 
 
-//get All student (Morenikeji)
+//get All student (Lawrence)
 getAllStudents : function(){
 
 return ;
@@ -71,7 +71,7 @@ employStaff : function ( name, sex, phone, address, salary ){
     },
     
 
-//get all staffs in the school (Morenikeji)
+//get all staffs in the school (Lawrence)
 getAllStaffs : function(){
 // for example
 
@@ -108,7 +108,7 @@ return balance;
 },
 
 
-//get information about the school (Mornikeji)
+//get information about the school (Lawrence)
 getInfo : function(){
   
 },
@@ -121,7 +121,7 @@ paySchoolFees : function(id, amount){
 },
 
 
-//get total fees balance (Morenikeji)
+//get total fees balance (Lawrence)
 totalFeesBalance : function(){
 
 return balance;
