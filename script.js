@@ -35,8 +35,13 @@ return;
 
 //get All student (Lawrence)
 getAllStudents : function(){
+},
+//get  students (Lawrence)
+getAllStudents: function(){
+  const students = this.students;
 
-return ;
+return students;
+
 },
 
 
@@ -75,6 +80,11 @@ employStaff : function ( name, sex, phone, address, salary ){
 getAllStaffs : function(){
 // for example
 
+},
+ //Lawrence
+//get all staffs in the school (Lawrence)
+getAllStaffs: function(){
+  const staffs = this.staffs;
 return staffs
 },
 
