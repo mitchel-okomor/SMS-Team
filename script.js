@@ -33,10 +33,13 @@ return;
 },
 
 
-//get All student (Morenikeji)
-getAllStudents : function(){
 
-return ;
+//get  students (Lawrence)
+getAllStudents: function(){
+  const students = this.students;
+
+return students;
+
 },
 
 
@@ -71,10 +74,10 @@ employStaff : function ( name, sex, phone, address, salary ){
     },
     
 
-//get all staffs in the school (Morenikeji)
-getAllStaffs : function(){
-// for example
-
+ Lawrence
+//get all staffs in the school (Lawrence)
+getAllStaffs: function(){
+  const staffs = this.staffs;
 return staffs
 },
 
