@@ -33,7 +33,9 @@ return;
 },
 
 
-
+//get All student (Lawrence)
+getAllStudents : function(){
+},
 //get  students (Lawrence)
 getAllStudents: function(){
   const students = this.students;
@@ -74,7 +76,12 @@ employStaff : function ( name, sex, phone, address, salary ){
     },
     
 
- Lawrence
+//get all staffs in the school (Lawrence)
+getAllStaffs : function(){
+// for example
+
+},
+ //Lawrence
 //get all staffs in the school (Lawrence)
 getAllStaffs: function(){
   const staffs = this.staffs;
@@ -111,7 +118,7 @@ return balance;
 },
 
 
-//get information about the school (Mornikeji)
+//get information about the school (Lawrence)
 getInfo : function(){
   
 },
@@ -124,7 +131,7 @@ paySchoolFees : function(id, amount){
 },
 
 
-//get total fees balance (Morenikeji)
+//get total fees balance (Lawrence)
 totalFeesBalance : function(){
 
 return balance;
