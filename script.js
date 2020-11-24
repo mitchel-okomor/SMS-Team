@@ -35,9 +35,9 @@ registerStudent: function(name, sex, age, fees, phone, address ){
 },
 
 
-//get  student (FLorence)
+//get  students (Lawrence)
 getAllStudents: function(){
-
+  const students = this.students;
 
 return students
 },
@@ -74,9 +74,9 @@ employStaff: function ( name, sex, phone, address, salary ){
     },
     
 
-//get all staffs in the school (Mithel)
+//get all staffs in the school (Lawrence)
 getAllStaffs: function(){
-// for example
+  const staffs = this.staffs;
 
 return staffs
 },
